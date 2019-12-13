@@ -70,6 +70,3 @@ except IOError as e:
 else:
     with f:
         print(f.read())
-
-
-
