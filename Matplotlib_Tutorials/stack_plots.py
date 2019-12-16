@@ -14,6 +14,6 @@ labels = ['Sleeping', 'Eating', 'Working', 'Playing']
 # plt.plot([], [], color='r', label='Working', linewidth=5)
 # plt.plot([], [], color='k', label='Playing', linewidth=5)
 fig, ax = plt.subplots()
-ax.stackplot(days, sleeping, eating, working, playing, colors=['m', 'c', 'r', 'k'],labels=['Sleeping', 'Eating', 'Working', 'Playing'])
+ax.stackplot(days, sleeping, eating, working, playing, colors=['m', 'c', 'r', 'k'], labels=['Sleeping', 'Eating', 'Working', 'Playing'])
 ax.legend(loc='upper right')
 plt.show()
