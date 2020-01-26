@@ -45,11 +45,6 @@ class Binary_Node:
             self.value = child.value
         return self
 
-
-    
-
-    
-
 class Binary_Tree:
 
     def __init__(self):
