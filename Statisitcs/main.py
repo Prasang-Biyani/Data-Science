@@ -15,4 +15,16 @@ assert median([4, 5, 6, 7]) == (5 + 6) / 2
 def mean(xs):
     return sum(xs) / len(xs)
 
+def quantile(xs, p):
+    '''Returns the p-th percentile value in x'''
+    p_index = int(p * len(xs))
+    return sorted(xs)[p_index]
+
+# Dispersion - How spread out the data is
+def data_range(xs):
+    return max(xs) - min(xs)
+
+
+
+
  
